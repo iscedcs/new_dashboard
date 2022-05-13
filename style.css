@@ -1,0 +1,70 @@
+/* Centered texts in each section
+* --------------------------------------- */
+.section{
+     text-align:center;
+}
+
+
+/* Backgrounds will cover all the section
+* --------------------------------------- */
+.section{
+     background-size: cover;
+}
+.slide{
+     background-size: cover;
+}
+
+/* Defining each section background and styles
+* --------------------------------------- */
+#header-section{
+     background-image: url(imgs/d.jpg);
+}
+#about-section{
+     background-image: url(imgs/a.jpg);
+     padding: 6% 0 0 0;
+}
+#about-slide1{
+     background-image: url(imgs/a.jpg);
+     padding: 6% 0 0 0;
+}
+#about-slide2{
+     background-image: url(imgs/c.jpg);
+     padding: 6% 0 0 0;
+}
+#feature-section{
+     background-image: url(imgs/b.jpg);
+     padding: 6% 0 0 0;
+}
+#section4{
+     background-color: black;
+     padding: 6% 0 0 0;
+}
+
+/* Defining nav styles
+* --------------------------------------- */
+#navbar{
+     width: 100%;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     top: 0;
+     position: absolute;
+     z-index: 999;
+}
+
+/*Adding background for the slides
+* --------------------------------------- */
+/* #slide1{
+     background-image: url(imgs/bg2.jpg);
+     padding: 6% 0 0 0;
+}
+#slide2{
+     background-image: url(imgs/bg5.jpg);
+     padding: 6% 0 0 0;
+} */
+
+
+/* Bottom menu
+* --------------------------------------- */
+/* #infoMenu li a {
+     color: #fff;
+} */
