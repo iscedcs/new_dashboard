@@ -919,7 +919,7 @@
             <main class="space-y-4">
                <div class="flex justify-center place-content-center">
                     <div class="vcard grid drop-shadow-xl shadow-xl">
-                      <div id="vcard" class="text-white max-w-sm bg-gray-100 border-8 rounded border-white max-h-[36rem] overflow-y-auto">
+                      <div id="vcard" class="text-white max-w-sm bg-gray-100 border-8 rounded border-white lg:max-h-[34rem] max-h-screen overflow-y-auto">
                           <div class="">
                               <div class="relative border-gray-800"
                                         style="width: 100%; height: 200px; background-image: url('https://isce.app/backend/img/vCards/IMG-626ed4312ea90-a.jpg.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
@@ -1734,11 +1734,18 @@
             
               <div class="modal-body relative p-4">
                 <label for="new-element-icon" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Select an ICON</label>
-                <select id="new-element-icon" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                  <option selected>Choose a country</option>
+                <select id="new-element-icon" class="mb-5 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                  <option selected>Choose an icon</option>
                   <option value="fa-brands fa-airbnb">Air BNB</option>
                   <option value="fa-brands fa-aws">AWS</option>
-</select>
+                </select>
+                
+                <label for="new-element-label" class="form-label inline-block mb-2 text-gray-700">Label</label>
+                <input type="text" class="mb-5 form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="new-element-label" placeholder="Label"/>
+                
+                <label for="new-element-content" class="form-label inline-block mb-2 text-gray-700">Content</label>
+                <input type="text" class="mb-5 form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="new-element-content" placeholder="Content"/>
+
               </div>
               <div
                 class="modal-footer flex flex-shrink-0 flex-wrap items-center justify-end p-4 border-t border-gray-200 rounded-b-md">
